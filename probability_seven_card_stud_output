@@ -1,0 +1,59 @@
+
+ ---------- List of poker hands ------------ 
+
+ ♪ Royal Flush ♪ 
+ [ ♦ A ]  [ ♦ 10 ]  [ ♦ J ]  [ ♦ Q ]  [ ♦ K ] 
+
+ ♪ Straight Flush ♪ 
+ [ ♣ 4 ]  [ ♣ 5 ]  [ ♣ 6 ]  [ ♣ 7 ]  [ ♣ 8 ] 
+
+ ♪ Four of a Kind ♪ 
+ [ ♦ 7 ]  [ ♥ J ]  [ ♠ J ]  [ ♦ J ]  [ ♣ J ] 
+
+ ♪ Full House ♪ 
+ [ ♣ 9 ]  [ ♦ 9 ]  [ ♥ 10 ]  [ ♠ 10 ]  [ ♦ 10 ] 
+
+ ♪ Flush ♪ 
+ [ ♠ 2 ]  [ ♠ 4 ]  [ ♠ 8 ]  [ ♠ 9 ]  [ ♠ J ] 
+
+ ♪ Straight ♪ 
+ [ ♥ 5 ]  [ ♦ 6 ]  [ ♠ 7 ]  [ ♦ 8 ]  [ ♣ 9 ] 
+
+ ♪ Three of a Kind ♪ 
+ [ ♦ 3 ]  [ ♣ 7 ]  [ ♦ 7 ]  [ ♠ 7 ]  [ ♣ K ] 
+
+ ♪ Two Pair ♪ 
+ [ ♦ 3 ]  [ ♣ 3 ]  [ ♣ 4 ]  [ ♠ 4 ]  [ ♣ Q ] 
+
+ ♪ Pair ♪ 
+ [ ♥ A ]  [ ♦ A ]  [ ♠ 4 ]  [ ♥ 7 ]  [ ♣ 8 ] 
+
+ ♪ Ace high or less ♪ 
+ [ ♠ 2 ]  [ ♦ 3 ]  [ ♥ 4 ]  [ ♠ 8 ]  [ ♣ J ] 
+
+ ---------- Testing code ------------ 
+
+Test - draw 7 cards in random, and determine hand:
+ [ ♦ 8 ]  [ ♣ 9 ]  [ ♣ 10 ]  [ ♠ K ]  [ ♥ K ]  [ ♣ 5 ]  [ ♥ 6 ] 
+ ♪ Pair ♪ 
+
+
+
+Start simulation... number of trials: 1000000
+
+
+
+ ----- Printing probability of poker hands, when each time draws 7 cards: -----
+
+ ♪ Royal Flush:  0.002900 % 
+ ♪ Straight Flush:  0.028100 % 
+ ♪ Four of a kind:  0.167000 % 
+ ♪ Full house:  2.624700 % 
+ ♪ Flush:  3.011900 % 
+ ♪ Straight:  4.637000 % 
+ ♪ Three of a kind:  4.829100 % 
+ ♪ Two pairs:  23.519900 % 
+ ♪ One pair:  43.777701 % 
+ ♪ Ace high or less:  17.401700 % 
+
+... time spent for simulation: 8.344627 s.
